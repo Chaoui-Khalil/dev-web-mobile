@@ -1,0 +1,247 @@
+/* ------------------------------Home------------------------------ */
+.head ul li {
+    display: inline-block;
+    color: azure;
+    padding: 30px;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+}
+.head {
+    border-bottom: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+    transition: 0,1s;
+}
+nav li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.item1{
+   background-color: rgba(10, 3, 46, 0.975);
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   transition: 1s ease;
+   border: 3px solid black;
+}
+.item2{
+    background-color:  rgba(10, 3, 46, 0.975);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 1s ease;
+    border: 3px solid black;
+    }
+.item3{
+    background-color:  rgba(10, 3, 46, 0.975);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 1s ease;
+    border: 3px solid black;
+ }
+.item4{
+    background-color:  rgba(10, 3, 46, 0.975);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 1s ease;
+    border: 3px solid black;
+ }
+#accueil{
+    background-image: url(background.png);
+    height: 654px;
+    border-bottom: 4px solid black;
+}
+#accueil .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#accueil .top img {
+    height: 25px;
+}
+#accueil .box .text{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 80px;
+    font-family: "Lobster", cursive;
+    font-size: 38px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+#accueil .box .text h1{
+    font-size: 40px;
+    color: rgb(109, 62, 236);
+    text-decoration: underline;
+    
+}
+#accueil .box .text h3{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    
+}
+#accueil .box .text p{
+    font-size: 25px;
+    text-decoration: underline;
+    
+}
+#accueil .box{
+  height: 86vh;
+  width: 75%;
+  padding: 0 20px;
+  background-color: rgb(255, 255, 255 , 0.1);
+  z-index: 10;
+  border: 3px solid rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  display: flex;
+  backdrop-filter: blur(25px);
+  box-shadow: -15px 17px 17px rgba(0, 0, 0, 0.15);
+  margin-left: 140px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+#accueil .top .titre{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "Lobster", cursive;
+    letter-spacing: 2px; 
+    margin: 2px;
+}
+#accueil .box img{
+    height: 460px;
+    border-radius: 20px;
+    margin-top: 32px;
+    margin-left: 18px;
+}
+.head img{
+   width: 100px;
+   height: 100px;
+   border-radius: 20px;
+   border: 3px solid black;
+   box-shadow: -15px 17px 17px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/* ------------------------------about me------------------------------ */
+#a-propos{
+   border-bottom: 4px solid black;
+}
+#a-propos .top .titre{
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "Lobster", cursive;
+    letter-spacing: 2px; 
+    margin: 2px;
+}
+#a-propos .box{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "Lobster", cursive;
+    letter-spacing: 2px; 
+    margin: 2px;
+}
+#a-propos .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#a-propos .top img{
+    height: 35px;
+}
+
+
+
+/* ------------------------------Project------------------------------ */
+#projets{
+    background-image: url(background.png);
+    padding-bottom: 20px;
+    border-bottom: 4px solid black;
+}
+#projets .top .titre{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "Lobster", cursive;
+    letter-spacing: 2px; 
+}
+.projets-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.projet {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "Lobster", cursive;
+    letter-spacing: 2px; 
+    font-size: 17px;
+}
+.projet:hover {
+    transform: scale(1.05);
+}
+#projets .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#projets .top img{
+    margin-top: 0;
+    height: 35px;
+}
+
+
+
+/* ------------------------Contact------------------------------ */
+#contact{
+    text-align: center;
+}
+#contact h1{
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "Lobster", cursive;
+    letter-spacing: 2px; 
+}
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+#contact ul li a {
+    color: #325bbc;
+    font-weight: bold;
+}
+#contact .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact img{
+    height: 35px;
+}
+
+
