@@ -16,7 +16,7 @@
 nav li a{
     text-decoration: none;
     color: rgb(225, 225, 225);
-    transition: 0,1s;
+    transition: 0.1s;
 }
 nav li a:hover{
     background-color: aliceblue;
@@ -54,6 +54,14 @@ nav li a:hover{
     transition: 1s ease;
     border: 3px solid black;
  }
+ .item5{
+    background-color:  rgba(10, 3, 46, 0.975);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 1s ease;
+    border: 3px solid black;
+ }
 #accueil{
     background-image: url(background.png);
     height: 654px;
@@ -76,7 +84,6 @@ nav li a:hover{
     padding-left: 80px;
     font-family: "Lobster", cursive;
     font-size: 38px;
-    letter-spacing: 2px;
     text-decoration: underline;
 }
 #accueil .box .text h1{
@@ -110,6 +117,11 @@ nav li a:hover{
   margin-left: 140px;
   margin-bottom: 30px;
   padding: 5px;
+  max-width: 1000px;  
+  min-width: 300px;   
+  margin: auto;       
+  height: auto;       
+  padding: 20px;
 }
 
 #accueil .top .titre{
@@ -244,4 +256,76 @@ nav li a:hover{
     height: 35px;
 }
 
+
+
+
+@media screen and (max-width: 1140px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .head ul {
+        padding: 0;
+    }
+
+    .head ul li {
+        display: block;
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #accueil {
+        height: auto;
+        padding: 20px;
+    }
+
+    #accueil .box {
+        width: 90%;  
+        max-width: 400px; 
+        margin: 20px auto;  
+        padding: 15px; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        background: #fff; 
+        border-radius: 10px; 
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+        
+       
+        height: auto;  
+        min-height: 100px; 
+        overflow: hidden; 
+    }
+
+    #accueil .box img {
+        width: 100%;  
+        max-height: 250px; 
+        object-fit: cover;  
+        border-radius: 10px; 
+    }
+
+    #accueil .box .text {
+        font-size: 18px; 
+        padding: 10px;  
+        max-width: 90%; 
+        word-wrap: break-word; 
+    }
+
+    .projets-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projet {
+        width: 90%;
+    }
+
+    #contact h1 {
+        font-size: 1.2em;
+    }
+}
 
