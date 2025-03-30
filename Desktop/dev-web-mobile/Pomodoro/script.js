@@ -4,7 +4,7 @@ const reset = document.getElementById("reset");
 const timer = document.getElementById("timer");
 const statusText = document.getElementById("statusText"); 
 
-let timeLeft = 1500;
+let timeLeft = 3;
 let interval;
 let sessionCount = 0;
 let isBreak = false; 
@@ -29,7 +29,7 @@ const startTimer = () => {
             if (isBreak) {
                 
                 alert("Pause terminée !");
-                timeLeft = 1500; 
+                timeLeft = 3; 
                 isBreak = false;
                 statusText.innerText = "💼 Travail en cours...";
             } else {
@@ -61,7 +61,7 @@ const stopTimer = () => {
 const resetTimer = () => {
     clearInterval(interval);
     interval = null;
-    timeLeft = 1500;
+    timeLeft = 3;
     isBreak = false;
     sessionCount = 0;
     statusText.innerText = "💼 Travail en cours...";
@@ -80,7 +80,7 @@ const taskList = document.getElementById("taskList");
 
 
 addTask.addEventListener("click", () => {
-    const taskText = taskInput.value.trim();
+    const taskText = taskInput.value.trim();                                                
     if (taskText === "") return;
 
     const li = document.createElement("li");
