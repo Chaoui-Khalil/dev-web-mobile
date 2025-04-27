@@ -1,0 +1,56 @@
+body{
+  background-color: wheat;
+}
+.box{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin: auto;       
+  height: auto;
+  padding: 10px;
+  box-shadow: -15px 17px 17px rgba(0, 0, 0, 0.15);
+}
+.title{
+  display: flex;
+  justify-content: center;
+}
+.nom{
+  margin: 10px;
+}
+.prenom{
+  margin: 10px;
+  
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.btn1{
+  padding:8px;
+  border-radius: 5px;
+  border: black 1px;
+  color: white;
+  background-color: blue;
+}
+.page2{
+  display: flex;
+  justify-content: center;
+}
+.page2 a {
+  text-decoration: none;
+  color: white;
+  background-color: #4CAF50;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.page2 a:hover {
+  background-color: #3e8e41;
+}

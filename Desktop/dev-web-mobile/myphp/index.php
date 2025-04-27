@@ -1,18 +1,17 @@
+<!-- index.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulaire avec image</title>
 </head>
 <body>
-    <form action="welcome.php" method="POST">
+    <form action="welcome.php" method="POST" enctype="multipart/form-data">
         Nom: <input type="text" name="name" /><br />
         Prenom: <input type="text" name="prenom" /><br />
         E-mail: <input type="text" name="email" /><br />
-        <input type="submit" />
+        Photo: <input type="file" name="image" /><br />
+        <input type="submit" value="Envoyer" />
     </form>
-    
-    <br />
 </body>
 </html>
